@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivam Kulhari - Portfolio</title>
+
+  <!-- Tailwind is only used for simple layout classes like flex and gap -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="flex flex-col md:flex-row">
+
+  <!-- left side: photo, name and menu -->
+  <div class="sidebar md:w-72 p-6 flex flex-col md:h-screen md:sticky md:top-0">
+    <img src="images/shivam.png" alt="Photo of Shivam Kulhari" class="photo">
+    <h2 class="name">Shivam Kulhari</h2>
+    <p class="role">CS &amp; AI Enthusiast, Python Developer</p>
+    <p class="status">Open to internships</p>
+
+    <ul class="menu flex flex-row flex-wrap md:flex-col gap-3 mt-8">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="social flex gap-4 mt-8 md:mt-auto">
+      <a href="mailto:shivam.26bcs10333@sst.scaler.com">Email</a>
+      <a href="https://github.com/shivamkulhari" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/shivam-kulhari-797589307/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- right side: all the sections -->
+  <div class="main flex-1 p-6 md:p-12">
+
+    <!-- hero -->
+    <div class="section">
+      <p class="small-title">Hello, I'm</p>
+      <h1 class="big-title">Shivam Kulhari</h1>
+      <p class="text">
+        A computer science student who likes Python, AI and machine
+        learning. I like building small, working things and learning by doing.
+      </p>
+      <div class="flex flex-wrap gap-4 mt-6">
+        <a href="https://github.com/shivamkulhari" target="_blank" class="button">View GitHub</a>
+        <a href="#contact" class="button button-outline">Get In Touch</a>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div class="section" id="about">
+      <p class="small-title">About</p>
+      <h2 class="title">A bit about me</h2>
+      <p class="text">
+        I'm a computer science student from Mumbai, currently doing two
+        programs: a B.Sc. in Computer Science at BITS Pilani, and the UGP
+        in CS &amp; AI at Scaler School of Technology. Before that I was at
+        DPS Navi Mumbai for my whole school life.
+      </p>
+      <p class="text">
+        I'm mainly a Python person and I want to spend my time going deeper
+        into AI and machine learning. Right now I'm learning a few Python
+        libraries and slowly working toward proper ML projects.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+        <div class="box">
+          <p class="box-label">Based in</p>
+          <p class="box-value">Mumbai</p>
+        </div>
+        <div class="box">
+          <p class="box-label">Studying</p>
+          <p class="box-value">B.Sc. CS (BITS Pilani) &amp; UGP CS &amp; AI (Scaler)</p>
+        </div>
+        <div class="box">
+          <p class="box-label">Focused on</p>
+          <p class="box-value">Python, CS &amp; AI fundamentals</p>
+        </div>
+        <div class="box">
+          <p class="box-label">Codeforces</p>
+          <p class="box-value">800+ rating</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills -->
+    <div class="section" id="skills">
+      <p class="small-title">Skills</p>
+      <h2 class="title">What I work with</h2>
+
+      <p class="label-bold">Languages</p>
+      <div class="flex flex-wrap gap-3 mb-6">
+        <span class="chip">Python</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+      </div>
+
+      <p class="label-bold">Currently learning</p>
+      <div class="flex flex-wrap gap-3">
+        <span class="chip">NumPy</span>
+        <span class="chip">Pandas</span>
+        <span class="chip">Matplotlib</span>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div class="section" id="projects">
+      <p class="small-title">Projects</p>
+      <h2 class="title">Things I've built</h2>
+      <p class="text mb-6">Some HTML and CSS practice projects.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <a href="projects/weather/index.html" target="_blank" class="card">
+          <h3 class="card-title">Weather Dashboard UI</h3>
+          <p class="card-text">
+            A static weather page with a card for each city. Made to
+            practice CSS Grid. There is no real weather data.
+          </p>
+          <p class="card-tag">HTML, CSS, Grid</p>
+        </a>
+
+        <a href="projects/blog/index.html" target="_blank" class="card">
+          <h3 class="card-title">Blog Card Layout</h3>
+          <p class="card-text">
+            A simple blog page with tags and a grid of cards, to practice
+            text styling and hover effects.
+          </p>
+          <p class="card-tag">HTML, CSS, Grid</p>
+        </a>
+
+        <a href="projects/login/index.html" target="_blank" class="card">
+          <h3 class="card-title">Sign In Page</h3>
+          <p class="card-text">
+            A login card with styled form fields. Only the design, there
+            is no real login.
+          </p>
+          <p class="card-tag">HTML, CSS, Forms</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- journey -->
+    <div class="section" id="journey">
+      <p class="small-title">Journey</p>
+      <h2 class="title">Where I've been</h2>
+
+      <div class="row flex gap-6">
+        <p class="year">2026 - 2030</p>
+        <div>
+          <h3 class="row-title">UGP, CS &amp; AI (In progress)</h3>
+          <p class="row-text">Scaler School of Technology</p>
+        </div>
+      </div>
+
+      <div class="row flex gap-6">
+        <p class="year">2026 - 2029</p>
+        <div>
+          <h3 class="row-title">B.Sc. Computer Science (In progress)</h3>
+          <p class="row-text">BITS Pilani</p>
+        </div>
+      </div>
+
+      <div class="row flex gap-6">
+        <p class="year">2025 - 2026</p>
+        <div>
+          <h3 class="row-title">Class 12, CBSE - 88%</h3>
+          <p class="row-text">Delhi Public School, Navi Mumbai</p>
+        </div>
+      </div>
+
+      <div class="row flex gap-6">
+        <p class="year">2024 - 2025</p>
+        <div>
+          <h3 class="row-title">Member, Python Coding Club</h3>
+          <p class="row-text">Delhi Public School, Navi Mumbai</p>
+        </div>
+      </div>
+
+      <div class="row flex gap-6">
+        <p class="year">2023 - 2024</p>
+        <div>
+          <h3 class="row-title">Class 10, CBSE - 94%</h3>
+          <p class="row-text">Delhi Public School, Navi Mumbai</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="section" id="contact">
+      <p class="small-title">Contact</p>
+      <h2 class="title">Let's talk</h2>
+      <p class="text mb-6">
+        Reach out about internships, projects, or anything Python and AI related.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-3 mb-8">
+        <a href="mailto:shivam.26bcs10333@sst.scaler.com" class="contact-link">shivam.26bcs10333@sst.scaler.com</a>
+        <a href="https://github.com/shivamkulhari" target="_blank" class="contact-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/shivam-kulhari-797589307/" target="_blank" class="contact-link">LinkedIn</a>
+      </div>
+
+      <form class="max-w-md">
+        <label for="name" class="label">Name</label>
+        <input type="text" id="name" name="name" class="input" required>
+
+        <label for="email" class="label">Email</label>
+        <input type="email" id="email" name="email" class="input" required>
+
+        <label for="message" class="label">Message</label>
+        <textarea id="message" name="message" rows="4" class="input" required></textarea>
+
+        <button type="submit" class="button mt-3">Send Message</button>
+      </form>
+    </div>
+
+    <p class="footer">© 2026 Shivam Kulhari. Built with HTML, CSS and Tailwind CSS.</p>
+
+  </div>
+</div>
+
+</body>
+</html>

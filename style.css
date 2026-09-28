@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* left side */
+.sidebar {
+  background: #16192b;
+  color: #e3e6f0;
+}
+
+.photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2c3050;
+}
+
+.name {
+  font-size: 22px;
+  margin: 16px 0 4px 0;
+}
+
+.role {
+  font-size: 14px;
+  color: #9ba3c4;
+  margin: 0;
+}
+
+.status {
+  font-size: 13px;
+  color: #7fe0c4;
+  border: 1px solid #2c3050;
+  padding: 6px 12px;
+  border-radius: 20px;
+  width: fit-content;
+  margin-top: 16px;
+}
+
+.menu a {
+  color: #b7bedd;
+}
+
+.menu a:hover {
+  color: #7fe0c4;
+}
+
+.social a {
+  color: #7b84aa;
+  font-size: 14px;
+}
+
+.social a:hover {
+  color: #7fe0c4;
+}
+
+/* right side */
+.main {
+  max-width: 800px;
+}
+
+.section {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e2e6f0;
+}
+
+.small-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #1a9c7a;
+  margin: 0 0 5px 0;
+}
+
+.big-title {
+  font-size: 38px;
+  margin: 0 0 16px 0;
+  color: #16192b;
+}
+
+.title {
+  font-size: 26px;
+  margin: 0 0 16px 0;
+  color: #16192b;
+}
+
+.text {
+  color: #52586b;
+}
+
+.label-bold {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* about boxes */
+.box {
+  background: white;
+  border: 1px solid #e2e6f0;
+  border-left: 4px solid #2dd4a7;
+  padding: 14px;
+  border-radius: 6px;
+}
+
+.box-label {
+  font-size: 12px;
+  color: #8890a8;
+  margin: 0 0 3px 0;
+}
+
+.box-value {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* skills */
+.chip {
+  background: white;
+  border: 1px solid #e2e6f0;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* project cards */
+.card {
+  display: block;
+  background: white;
+  border: 1px solid #e2e6f0;
+  border-radius: 8px;
+  padding: 20px;
+  color: #1f2933;
+}
+
+.card:hover {
+  border-color: #2dd4a7;
+}
+
+.card-title {
+  font-size: 17px;
+  margin: 0 0 8px 0;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #52586b;
+  margin-bottom: 12px;
+}
+
+.card-tag {
+  font-size: 12px;
+  color: #1a9c7a;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* journey */
+.row {
+  padding: 14px 0;
+  border-top: 1px solid #e2e6f0;
+}
+
+.year {
+  width: 110px;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: #8890a8;
+  margin: 0;
+}
+
+.row-title {
+  font-size: 16px;
+  margin: 0 0 3px 0;
+}
+
+.row-text {
+  font-size: 14px;
+  color: #52586b;
+  margin: 0;
+}
+
+/* contact */
+.contact-link {
+  background: white;
+  border: 1px solid #e2e6f0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #16192b;
+}
+
+.contact-link:hover {
+  border-color: #2dd4a7;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  margin: 14px 0 4px 0;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e2e6f0;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+}
+
+.button {
+  display: inline-block;
+  background: #16192b;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #2dd4a7;
+  color: #16192b;
+}
+
+.button-outline {
+  background: transparent;
+  color: #16192b;
+  border: 1px solid #16192b;
+}
+
+.footer {
+  font-size: 13px;
+  color: #8890a8;
+}
